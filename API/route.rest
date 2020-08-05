@@ -2,4 +2,20 @@ GET http://localhost:3000/users
 
 ###
 
-GET http://localhost:3000/users/1
+GET http://localhost:3000/users/5f2ad1ac4bbede1bdc34929c
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "username": "imran",
+    "email": "imran@gmail.com",
+    "password": "imranpassword",
+    "role": 0
+}
+
+###
+
+DELETE http://localhost:3000/users/5f2ad1ac4bbede1bdc34929c
