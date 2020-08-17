@@ -1,0 +1,24 @@
+{
+  "name": "formvalidation",
+  "version": "1.0.0",
+  "description": "Server Side Form Validation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Form",
+    "Validation",
+    "Sever",
+    "Side"
+  ],
+  "author": "SakibAlamin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
