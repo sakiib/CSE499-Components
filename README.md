@@ -8,5 +8,5 @@
 ## Form Validation (Server Side)
 #### Server side form validation with Node.js, Express & Body-Parser
 
-## API Authentication JWT
-### Authentication method using JWT, @hapi/joi, mongodb as database, mongoose to create models and to connect to express server, bcryptjs to hash passwords and JWT to check for private routes.
+## API Auth JWT @hapi/joi
+### Authentication method using @hapi/joi, authorization with JWT, mongodb as database, mongoose to create models and to connect to express server, bcryptjs to hash passwords and JWT to check for private routes.
