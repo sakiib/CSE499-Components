@@ -5,6 +5,9 @@ const mongoose = require('mongoose');
 
 dotenv.config();
 
+// Import Routes
+const authRoutes = require('./routes/auth');
+
 // Connect to DB
 mongoose.connect(
     process.env.DB_CONNECT,
@@ -12,8 +15,8 @@ mongoose.connect(
     () => console.log('connected to mongoDB')
 );
 
-// Import Routes
-const authRoutes = require('./routes/auth');
+// Middleware
+app.use(express.json());
 
 // Route Middlewares
 app.use('/api/user', authRoutes);
