@@ -7,3 +7,6 @@
 
 ## Form Validation (Server Side)
 #### Server side form validation with Node.js, Express & Body-Parser
+
+## API Authentication JWT
+### Authentication with @hapi/joi
