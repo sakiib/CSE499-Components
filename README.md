@@ -10,3 +10,6 @@
 
 ## API Auth JWT, @hapi/joi, Hashing Password
 #### Authentication method using @hapi/joi, authorization with JWT, mongodb as database, mongoose to create models and to connect to express server, bcryptjs to hash passwords and JWT to check for private routes.
+
+## Managing User Roles
+#### Managing different user roles(Admin, User), permissions & actions associated with them in Node.js
