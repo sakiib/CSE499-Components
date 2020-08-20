@@ -6,6 +6,12 @@ function canViewProject(user, project) {
     );
 }
 
+function scopedProjects(user, projects) {
+    if (user.role === ROLE.ADMIN) return projects;
+    return projects.filter(project => project.userId === user.id);
+}
+
 module.exports = {
-    canViewProject
+    canViewProject,
+    scopedProjects
 }
